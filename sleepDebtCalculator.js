@@ -44,6 +44,9 @@ const calculateSleepDebt = () =>{
   let ideaSleeplHours =
    getIdealSleepHours();
 }
+//can someone help me with this error? 
+ReferenceError: actualSleepHours is not defined
+    at Object.<anonymous> 
 if (actualSleepHours === idealSleepHours){
   console.log('That is a perfect seelp');
 } else if (actualSleepHours > idealSleepHours){
